@@ -30,7 +30,7 @@
 							<!-- <ul class="nav navbar-nav menu">
 								<li class="active">
 						 			<a href="#home">Home</a>  
-								</li>
+								</li> 
 								<li>
 									<a href="#feature">Feature</a>
 								</li>
