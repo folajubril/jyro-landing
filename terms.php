@@ -29,7 +29,7 @@
 						<div class="right-nav text-right">
 							<!-- <ul class="nav navbar-nav menu">
 								<li class="active">
-						 			<a href="#home">Home</a> 
+						 			<a href="#home">Home</a>  
 								</li>
 								<li>
 									<a href="#feature">Feature</a>
