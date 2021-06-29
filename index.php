@@ -96,7 +96,8 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="img-pre">
-								<img style="height: 100vh;" class="jump-anim img-left-padding" alt="" src="img/image1.png">
+								<img 
+								 class="jump-anim img-left-padding" alt="" src="img/image1.png">
 							</div>
 						</div>
 					</div>
