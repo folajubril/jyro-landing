@@ -13,7 +13,7 @@
         content="Jyro  errand, pickup delivery service app " />
     <meta name="author" content="Stackonly" />
 
-    <title>Jyro - Errand App</title>
+    <title>Jyro - Errand App!</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
