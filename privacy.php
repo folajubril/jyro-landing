@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Jyro - Landing Page</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="css/vendor.bundle.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<?php include "header.php"; ?>
 <body data-spy="scroll" data-target="#navbar" data-offset="70" style="overflow: visible; justify-content: center;">
 
 	<!-- Preloader -->
@@ -27,14 +18,14 @@
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<i class="fa fa-bars"></i>
 						</button>
-						<a class="navbar-brand page-scroll logo-light" style="width: 135px;height: 45px;" href="index.html"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
-						<a class="navbar-brand page-scroll logo-clr" style="width: 135px;height: 45px;" href="index.html"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
+						<a class="navbar-brand page-scroll logo-light" style="width: 135px;height: 45px;" href="/"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
+						<a class="navbar-brand page-scroll logo-clr" style="width: 135px;height: 45px;" href="/"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<div class="right-nav text-right">
-							<ul class="nav navbar-nav menu">
+							<!-- <ul class="nav navbar-nav menu">
 								<li class="active">
 									<a href="#home">Home</a>
 								</li>
@@ -50,7 +41,7 @@
 								<li>
 									<a href="#team">Team</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -350,75 +341,7 @@
 	<!--  -->
 
 	<!--Footer  -->
-    <footer class="footer-wrapper pb-0 grdnt-blue sec-pad light">
-		<div class="container footer-content">
-			<div class="row">
-				<div class="subscribe-box flx-container align-flx-center flx-off-sm">
-					<div class="col-md-6 res-margin">
-						<h4 class="heading">Subscribe Newsletter</h4>
-					</div>
-					<div class="col-md-6">
-						<div class="sub-input subscribe custom-form animated wow fadeInUp" data-wow-delay=".1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
-							<form class="mailchimp custom-form" novalidate="true">
-								<div class="form-group">
-									<input type="email" name="EMAIL" id="subscriber-email" placeholder="Enter your Email" class="form-control">
-								</div>
-								<button type="submit" id="subscribe-button" class="btn grdnt-cyan">Subscribe</button>
-							</form>
-							<div class="text-center light result-box">
-								<h5 class="subscription-success"> </h5>
-						        <h5 class="subscription-error"> </h5>
-						        <label class="subscription-label" for="subscriber-email"></label>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row footer-widget">
-					<div class="col-md-3 col-sm-6 res-margin">
-						<a class="navbar-brand" href="index.html"><img alt="" src="img/logo.png"></a>
-						<div class="spce"></div>
-						<p>Best landing for your app showcase Follow other investors, discover companies to believe in.</p>
-					</div>
-					<div class="col-md-2 col-sm-6 col-md-offset-1 res-margin">
-						<h6>Useful Links</h6>
-						<div class="spce"></div>
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="./privacy.html">Privacy Policy</a></li>
-                            <li><a href="/T&C.html">Terms & Conditions</a></li>
-
-
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6 res-margin">
-						<h6>Support</h6>
-						<div class="spce"></div>
-						<ul>
-                            <li><a href="#">Our Team</a></li>
-							<li><a href="#">Features</a></li>
-							<li><a href="#">Customers</a></li>
-
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<h6>Follow Us</h6>
-						<div class="spce"></div>
-							<ul class="social-holder light">
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-							</ul>
-					</div>
-				</div>
-				<div class="spce md"></div>
-				<div class="spce"></div>
-				<div class="copyright text-center light">
-					2020 Copyright <strong>Freekytheme</strong> . ALL RIGHTS RESERVED
-				</div>
-			</div>			
-		</div>
-	</footer>
+ <?php include "footer.php"; ?>
 	<!-- End Footer -->
 
 	<!-- script -->

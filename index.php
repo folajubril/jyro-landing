@@ -1,16 +1,34 @@
-<!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Jyro - Landing Page</title>
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="img/favicon.png" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="css/vendor.bundle.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<?php include "header.php"; ?>	
+
+<style scoped>
+	/* .img-left-padding {
+		padding-left: 100px; 
+	} */
+	@media (max-width:480px){
+		.img-left-padding {
+			padding-left: 0; 
+		}
+	}
+	@media (min-width:1280px){
+		.img-left-padding {
+			padding-left: 100px; 
+		}
+	}
+	@media (min-width:1025px){
+		.img-left-padding {
+			padding-left: 100px; 
+		}
+	}
+	@media (min-width:960px){
+		.img-left-padding {
+			padding-left: 100px; 
+		}
+	}
+</style>
+
+
 <body data-spy="scroll" data-target="#navbar" data-offset="70" style="overflow: visible;">
 
-	<!-- Preloader -->
 	<div id="preloader" style="display: none;">
 		<div id="status" style="display: none;">&nbsp;</div>
 	</div>
@@ -27,8 +45,8 @@
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<i class="fa fa-bars"></i>
 						</button>
-						<a class="navbar-brand page-scroll logo-light" style="width: 135px;height: 45px;" href="index.html"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
-						<a class="navbar-brand page-scroll logo-clr" style="width: 135px;height: 45px;" href="index.html"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
+						<a class="navbar-brand page-scroll logo-light" style="width: 135px;height: 45px;" href="/"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
+						<a class="navbar-brand page-scroll logo-clr" style="width: 135px;height: 45px;" href="/"><img alt="" src="img/svgs/MainJyroLogo.svg"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,7 +66,7 @@
 									<a href="#How">How it Works?</a>
 								</li>
 								<li>
-									<button  style="width: 180px; height: 42px; background-color: #ff9100; color: #ffffff; border-radius: 4px; border: none;" href="/">Join Us</button>
+									<button  style="width: 180px; height: 42px; background-color: #ff9100; color: #ffffff; border-radius: 4px; border: none;" onClick='window.location.href="partner.php";'>Become a partner</button>
 								</li>
 							</ul>
 						</div>
@@ -78,7 +96,8 @@
 						</div>
 						<div class="col-sm-6">
 							<div class="img-pre">
-								<img style="height: 100vh; padding-left: 100px;" class="jump-anim" alt="" src="img/image1.png">
+								<img 
+								 class="jump-anim img-left-padding" alt="" src="img/image1.png">
 							</div>
 						</div>
 					</div>
@@ -103,7 +122,7 @@
 						<div class="col-md-3 col-sm-6 res-margin wow animated fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: none;">
 							<div class="item">
 								<div class="icon-md">
-									<span class="ti-layers clr-blue"></span>
+									<span class="ti-user clr-blue"></span>
 								</div>
 								<div class="spce"></div>
 								<h5>Agents</h5>
@@ -113,7 +132,7 @@
 						<div class="col-md-3 col-sm-6 res-margin wow animated fadeInUp" data-wow-duration="1.4s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.4s; animation-delay: 0.2s; animation-name: none;">
 							<div class="item">
 								<div class="icon-md">
-									<span class="ti-unlock clr-red"></span>
+									<span class="ti-car clr-red"></span>
 								</div>
 								<div class="spce"></div>
 								<h5>Verified Riders</h5>
@@ -133,7 +152,7 @@
 						<div class="col-md-3 col-sm-6 res-margin wow animated fadeInUp" data-wow-duration="1.8s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.8s; animation-delay: 0.2s; animation-name: none;">
 							<div class="item">
 								<div class="icon-md clr-cyan">
-									<span class="ti-mobile"></span>
+									<span class="ti-dashboard"></span>
 								</div>
 								<div class="spce"></div>
 								<h5>Easy Dashboard</h5>
@@ -158,7 +177,7 @@
 							<div class="text">
 								<h3>Track orders anytime from anywhere</h3>
 								<div class="spce"></div>
-								<p>Monitor your requests and get a notification when they are completed.</p>
+								<p>Easily perform tasks and monitor requests carried out in real time</p>
 								<div class="spce"></div>
 								<div class="right-dir-col grad-blue">
 									<div class="list">
@@ -189,7 +208,7 @@
 												<span class="ti-music-alt" aria-hidden="true"></span>
 											</div>
 											<div class="text">
-												<p class="large"><strong>Pay on delivery</strong>  and give yourself a little boost on online tracking.</p>
+												<p class="large"><strong>Flexible payment methods</strong>  and give yourself a little boost on online tracking.</p>
 											</div>
 										</div>
 									</div>
@@ -221,14 +240,14 @@
 							<div class="overview-text wow animated fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: none;">
 								<div class="head-bdr">
 									<div class="text grad-blue">
-										<h3>Control your daily schedule</h3>
-										<p>Earn money within a transparent community of users. Think security, think cashflow .</p>
+										<h3>Human - to - human connection</h3>
+										<p>Shop, run errands, deliverys, or request a service using out mobile app, carried out by real humans</p>
 										<div class="spce"></div>
 										<div class="row">
 											<div class="col-sm-4">
 												<div class="item text-center">
 													<div class="icon-sm">
-														<span class="ti-comments clip-txt"></span>
+														<span class="ti-user clip-txt"></span>
 													</div>
 													<h6>Riders</h6>
 												</div>
@@ -236,7 +255,7 @@
 											<div class="col-sm-4">
 												<div class="item text-center">
 													<div class="icon-sm">
-														<span class="ti-clip clip-txt"></span>
+														<span class="ti-user clip-txt"></span>
 													</div>
 													<h6>Agents</h6>
 												</div>
@@ -244,7 +263,7 @@
 											<div class="col-sm-4">
 												<div class="item text-center">
 													<div class="icon-sm">
-														<span class="ti-headphone clip-txt"></span>
+														<span class="ti-shopping-cart-full clip-txt"></span>
 													</div>
 													<h6>Stores</h6>
 												</div>
@@ -279,7 +298,7 @@
 						<div class="col-sm-3 col-xs-6 res-margin-sm">
 							<div class="item text-center">
 								<div class="icon-sm">
-									<span class="ti-email"></span>
+									<span class="ti-shopping-cart"></span>
 								</div>
 								<h6>Find Stores</h6>
 							</div>
@@ -295,9 +314,9 @@
 						<div class="col-sm-3 col-xs-6 res-margin-sm">
 							<div class="item text-center">
 								<div class="icon-sm">
-									<span class="ti-comments-smiley"></span>
+									<span class="ti-user"></span>
 								</div>
-								<h6>Verify Riders</h6>
+								<h6>Get Agent/Riders</h6>
 							</div>
 						</div>
 						<div class="col-sm-3 col-xs-6 res-margin-sm">
@@ -389,7 +408,7 @@
 								</div>
 								<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 									<div class="panel-body">
-										<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+										<p>We are a decentralized cab hailing platform that guarantees safety for all our users</p>
 									</div>
 								</div>
 							</div>
@@ -404,7 +423,7 @@
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									<div class="panel-body">
-										<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+										<p>Users signup and can perform carry out errand, pickup and delivery, service or shop.</p>
 									</div>
 								</div>
 							</div>
@@ -413,13 +432,13 @@
 									<h4 class="panel-title">
 										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
 											<i class="more-less glyphicon glyphicon-plus"></i>
-											How to use?
+											How do users keep safe?
 										</a>
 									</h4>
 								</div>
 								<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 									<div class="panel-body">
-										<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>
+										<p>Inbetween rides, users can record interactions so have a record saved.</p>
 									</div>
 								</div>
 							</div>
@@ -437,14 +456,15 @@
 			<div class="section-text text-center light">
 				<div class="section-text text-center wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;">
 					<p class="meta-head">Testimonial</p>
-					<h3>12k+ users love our app.</h3>
+					<h3>12k+ users and counting...</h3>
 				</div>
 			</div>
 			<div class="owl-carousel col-md-8 col-md-offset-2 quote wow animated fadeInUp owl-theme owl-loaded" data-wow-duration="1.2s" data-wow-delay=".2s" style="visibility: hidden; animation-duration: 1.2s; animation-delay: 0.2s; animation-name: none;">
 				
 				
 				
-			<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1500px, 0px, 0px); transition: all 0s ease 0s; width: 5250px;"><div class="owl-item cloned" style="width: 730px; margin-right: 20px;"><div class="quote-item">
+			<div class="owl-stage-outer">
+				<div class="owl-stage" style="transform: translate3d(-1500px, 0px, 0px); transition: all 0s ease 0s; width: 5250px;"><div class="owl-item cloned" style="width: 730px; margin-right: 20px;"><div class="quote-item">
 					<div class="quote-text bg-gray">
 						<div class="rating">
 							<ul class="rating-list">
@@ -456,135 +476,18 @@
 								<li><p>(5)</p></li>
 							</ul>
 						</div>
-						<p>“It's the best theme I've ever purchased.Excellent and easy code, excellent design.”</p>
+						<p>“This app revolutionized how we perrform certain tasks in live. It's truly top-notch and I'll advice everyone I know to signup.”</p>
 						<div class="spce"></div>
 						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
+							<h6 class="heading">Adetiwa Olumide</h6>
+							<p>Sety</p>
 						</div>
 					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img-2.jpg"></div>
-				</div></div><div class="owl-item cloned" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“It’s well designed, easy to use and very flexible without being bloated.Great value for money”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img-3.jpg"></div>
-				</div></div><div class="owl-item active" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“Very versatile. Seems like you can build most of the stuff out of the box.Very thoughtful”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img.jpg"></div>
-				</div></div><div class="owl-item" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“It's the best theme I've ever purchased.Excellent and easy code, excellent design.”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img-2.jpg"></div>
-				</div></div><div class="owl-item" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“It’s well designed, easy to use and very flexible without being bloated.Great value for money”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img-3.jpg"></div>
-				</div></div><div class="owl-item cloned" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“Very versatile. Seems like you can build most of the stuff out of the box.Very thoughtful”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img.jpg"></div>
-				</div></div><div class="owl-item cloned" style="width: 730px; margin-right: 20px;"><div class="quote-item">
-					<div class="quote-text bg-gray">
-						<div class="rating">
-							<ul class="rating-list">
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								<li><p>(5)</p></li>
-							</ul>
-						</div>
-						<p>“It's the best theme I've ever purchased.Excellent and easy code, excellent design.”</p>
-						<div class="spce"></div>
-						<div class="profile clearfix">
-							<h6 class="heading">Roger Bentham</h6>
-							<p>Manager</p>
-						</div>
-					</div>
-					<div class="profile-img"><img alt="" src="img/profile-img-2.jpg"></div>
-				</div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="display: none;">prev</div><div class="owl-next" style="display: none;">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+					<!-- <div class="profile-img"><img alt="" src="img/profile-img-2.jpg"></div> -->
+				</div></div>
+				
+			</div></div></div>
+				
 		</div>
 	</section>
 	<!-- End testimonial -->
@@ -629,7 +532,7 @@
                                         </span>
                                         <div class="text">
                                         	<h6>Address</h6>
-                                        	131 Dartmouth Street <br> Boston, Massachusetts 02116 <br> United States
+                                        	Victoria Island <br> Lagos Island, Lagos State <br> Nigeria
                                         </div>
                                         <div class="spce"></div>
 									</div>
@@ -637,14 +540,14 @@
 										<span class="icon-sm clip-txt">
                                             <i class="ti-mobile"></i>
                                         </span>
-                                        <div class="text"><h6>Phone</h6> +1 617 572 2000 <br> +1 17 7892 45454</div>
+                                        <div class="text"><h6>Phone</h6> +234 811 026 2879 </div>
                                         <div class="spce"></div>
 									</div>
 									<div class="col-md-4 col-sm-4">
 										<span class="icon-sm clip-txt">
                                             <i class="ti-email"></i>
                                         </span>
-                                        <div class="text"><h6>Mail</h6>support_mail@mail.com <br> xappir_mail@mail.com</div>
+                                        <div class="text"><h6>Mail</h6><a href = "mailto:hello@ejyro.com">hello@ejyro.com</a></div>
 									</div>
 								</div>								
 							</div>
@@ -656,58 +559,11 @@
 	</section>
 	<!--  -->
 
-	<!--Footer  -->
-	<footer class="footer-wrapper pb-0 grdnt-blue sec-pad light">
-		<div class="container footer-content">
-			<div class="row">
-				<div class="row footer-widget">
-					<div class="col-md-3 col-sm-6 res-margin">
-						<a class="navbar-brand" href="index.html"><h4>Jyro</h4></a>
-						<div class="spce"></div>
-						<p>Best landing for your app showcase Follow other investors, discover companies to believe in.</p>
-					</div>
-					<div class="col-md-2 col-sm-6 col-md-offset-1 res-margin">
-						<h6>Useful Links</h6>
-						<div class="spce"></div>
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="./privacy.html">Privacy Policy</a></li>
-                            <li><a href="/T&C.html">Terms & Conditions</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6 res-margin">
-						<h6>Support</h6>
-						<div class="spce"></div>
-						<ul>
-                            <li><a href="#">Our Team</a></li>
-							<li><a href="#">Features</a></li>
-							<li><a href="#">Customers</a></li>
-
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<h6>Follow Us</h6>
-						<div class="spce"></div>
-							<ul class="social-holder light">
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-							</ul>
-					</div>
-				</div>
-				<div class="spce md"></div>
-				<div class="spce"></div>
-				<div class="copyright text-center light">
-					2020 Copyright <strong>Freekytheme</strong> . ALL RIGHTS RESERVED
-				</div>
-			</div>			
-		</div>
-	</footer>
-	<!-- End Footer -->
+	<?php include "footer.php"; ?>	
 
 	<!-- script -->
 	<script src="js/vendor.bundle.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/script.js"></script>
 
 
